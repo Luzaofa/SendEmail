@@ -1,0 +1,12 @@
+﻿
+此程序可以实现向目标用户（可以向多用户）发送邮件（可以带附件（Excel、Word、JPG））
+
+用户只需要配置Email_config文件和EmailHelper文件，启动Main即可向目标用户发送邮件。
+
+Email_config具体配置信息参考Email_config文件
+
+EmailHelper文件配置信息如下：（授权码需开启相应的邮箱服务，切记授权码不是用户登录密码）
+    sender = 'XXXXX@126.com'	          # 发送账户
+    smtpserver = 'smtp.126.com'	          # 邮箱服务器
+    username = 'XXXXX@126.com'       # 用户名
+    password = 'XXXXXXXXXXXXXXX'    # 授权码
